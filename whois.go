@@ -34,8 +34,8 @@ package gobacnet
 import (
 	"net"
 
-	"github.com/alexbeltran/gobacnet/encoding"
-	"github.com/alexbeltran/gobacnet/types"
+	"github.com/kgolding/gobacnet/encoding"
+	"github.com/kgolding/gobacnet/types"
 )
 
 // WhoIs finds all devices with ids between the provided low and high values.

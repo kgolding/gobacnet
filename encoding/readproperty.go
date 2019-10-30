@@ -34,7 +34,7 @@ package encoding
 import (
 	"fmt"
 
-	bactype "github.com/alexbeltran/gobacnet/types"
+	bactype "github.com/kgolding/gobacnet/types"
 )
 
 func (e *Encoder) readPropertyHeader(tagPos uint8, data bactype.ReadPropertyData) (uint8, error) {

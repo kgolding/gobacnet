@@ -32,7 +32,7 @@ License.
 package encoding
 
 import (
-	bactype "github.com/alexbeltran/gobacnet/types"
+	bactype "github.com/kgolding/gobacnet/types"
 )
 
 func (e *Encoder) WhoIs(low, high int32) error {
